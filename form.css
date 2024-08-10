@@ -1,0 +1,53 @@
+.form {
+    display: flex;
+    flex-direction: column; /* Ensure input fields stack vertically */
+    align-items: center; /* Center align items horizontally */
+    justify-content: center;
+    text-align: center;
+    position: relative; /* Changed from absolute for better responsiveness */
+    padding: 15px; /* Adjusted padding */
+    width: 50%; /* Use percentage for responsive width */
+    max-width: 50em; /* Maximum width for larger screens */
+    margin: 2em auto; /* Center the form horizontally and adjust vertical spacing */
+    border: 2px solid #ffffff;
+    background-color: darkgreen;
+    color: #fff;
+    text-shadow: 1px 1px #1ed760;
+    border-radius: 12px;
+    transition: 2s;
+}
+
+.form:hover {
+    background-color: #1ed760;
+    color: #ffffff;
+    border-top: 2px solid #2ed73c;
+    border-bottom: 2px solid #98daaf;
+    box-shadow: 0 0 10px #fff; /* Adjusted box-shadow */
+    text-shadow: 1px 1px #000000;
+}
+
+.form #submitbtn1 {
+    background-color: #000;
+    color: #48d261;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+    height: 3em;
+    width: 13em;
+    transition: background-color 0.3s, color 0.3s; /* Added transition for smooth hover effect */
+}
+
+.form #submitbtn1:hover {
+    background: #1ed760;
+    color: #000000;
+    cursor: pointer;
+}
+
+.form .Allinput {
+    border-radius: 10px;
+    height: 2em;
+    width: 100%; /* Ensure input fields take full width within the form */
+    margin-bottom: 1em; /* Add spacing between input fields */
+    padding: 0 10px; /* Add padding inside input fields */
+    box-sizing: border-box; /* Ensure padding is included in the element’s total width and height */
+}

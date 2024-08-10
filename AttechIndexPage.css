@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Questrial&family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+min-height:calc(100px-10vh);
+color: aliceblue;
+}
+*::selection{
+    background-color:#ffffff;
+}
+.nav{
+    background-color: #1ed760;
+    height: 10vh;
+    text-align: center;
+}
+.img{
+    display: flex;
+    height: 200vh;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1614680376593-902f74cf0d41?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    transition: .5s;
+    font-size:10vh;
+}  
+.img:hover{
+    filter:contrast(2);
+}
+.text{
+    display: flex;
+    padding-top:10vh;
+    width: 35vh;
+    margin-left: 10vh;
+    transition: 1s;
+}
+.text:hover{
+    cursor: pointer;
+    font-size:15vh;
+    color: #1ed760;
+    text-decoration: underline #000000;
+    text-shadow:2px 5px #ffffff;
+}
+.text h1{
+    height:8vh;
+}
+
+button{
+    width: 15vh;
+    height: 7vh;
+    font-size: 10px;
+    margin-left: 35rem;
+    margin-top: 5vh;
+    background: #1ed760;
+    color: #000;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: #000;
+    color: #1ed760;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+footer{
+    position: absolute;
+    background: #1b1919;
+    color: aqua;
+    height:4em;
+    border-top-right-radius:12px solid white;
+    width:100%;
+    transition:2s;
+    padding: 20px;
+}
+footer:hover{
+    /* margin-bottom: 1em;  */
+    height:5em;   
+}
+
+.outro{
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;
+    
+}
+.outroIcons{
+    /* padding: 10px; */
+    /* vertical-align: bottom; */
+    /* background-color: #fff; */
+    width: 29px;
+}
+#git{
+    background: white;
+    border:1px solid white;
+    border-radius: 50%;
+}
