@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    { songName: "Hass Hass", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },
-    { songName: "Greedy", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
-    { songName: "Vampire", filePath: "songs/4.mp3", coverPath: "covers/4.jpg" },
-    { songName: "Water", filePath: "songs/5.mp3", coverPath: "covers/5.jpg" },
-    { songName: "Too Much", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
-    { songName: "Heavy Hitters", filePath: "songs/6.mp3", coverPath: "covers/6.jpg" },
-    { songName: "Needle", filePath: "songs/7.mp3", coverPath: "covers/7.jpg" },
-    { songName: "Paris", filePath: "songs/8.mp3", coverPath: "covers/8.jpg" },
-    { songName: "Over Mind", filePath: "songs/9.mp3", coverPath: "covers/9.jpg" },
-    { songName: "Don't Need To", filePath: "songs/10.mp3", coverPath: "covers/10.jpg" },
+    { songName: "Hass Hass", filePath: "1.mp3", coverPath: "covers/1.jpg" },
+    { songName: "Too Much", filePath: "2.mp3", coverPath: "covers/2.jpg" },
+    { songName: "Greedy", filePath: "3.mp3", coverPath: "covers/3.jpg" },
+    { songName: "Vampire", filePath: "4.mp3", coverPath: "covers/4.jpg" },
+    { songName: "Water", filePath: "5.mp3", coverPath: "covers/5.jpg" },
+    { songName: "Heavy Hitters", filePath: "6.mp3", coverPath: "covers/6.jpg" },
+    { songName: "Needle", filePath: "7.mp3", coverPath: "covers/7.jpg" },
+    { songName: "Paris", filePath: "8.mp3", coverPath: "covers/8.jpg" },
+    { songName: "Over Mind", filePath: "9.mp3", coverPath: "covers/9.jpg" },
+    { songName: "Don't Need To", filePath: "10.mp3", coverPath: "covers/10.jpg" },
 ];
 
 // Update song items in the UI
