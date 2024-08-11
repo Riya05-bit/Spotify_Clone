@@ -11,10 +11,10 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
     { songName: "Hass Hass", filePath: "1.mp3", coverPath: "covers/1.jpg" },
-    { songName: "Too Much", filePath: "2.mp3", coverPath: "covers/2.jpg" },
-    { songName: "Greedy", filePath: "3.mp3", coverPath: "covers/3.jpg" },
-    { songName: "Vampire", filePath: "4.mp3", coverPath: "covers/4.jpg" },
-    { songName: "Water", filePath: "5.mp3", coverPath: "covers/5.jpg" },
+    { songName: "Greedy", filePath: "2.mp3", coverPath: "covers/2.jpg" },
+    { songName: "Vampire", filePath: "3.mp3", coverPath: "covers/3.jpg" },
+    { songName: "Water", filePath: "4.mp3", coverPath: "covers/4.jpg" },
+    { songName: "Too Much", filePath: "5.mp3", coverPath: "covers/5.jpg" },
     { songName: "Heavy Hitters", filePath: "6.mp3", coverPath: "covers/6.jpg" },
     { songName: "Needle", filePath: "7.mp3", coverPath: "covers/7.jpg" },
     { songName: "Paris", filePath: "8.mp3", coverPath: "covers/8.jpg" },
